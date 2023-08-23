@@ -15,41 +15,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Apply margin and padding to specific tags */
-h1, h2, h3, h4, h5, h6,
-p, ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Container */
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-}
-
-/* Sections */
-.section {
-  padding: 120px 0;
-}
-
-/* Header */
-header {
-  border-bottom: 2px solid #000; /* Example border for the header */
-}
-
-/* Cards in Our Portfolio section */
-.card {
-  border-bottom: 2px solid #000; /* Example border for the card */
-  padding-bottom: 20px; /* Example padding between parent and child */
-}
-
-/* Example Flexbox usage */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
   .logo {
     color: var(--iris, #4D5AE5);
