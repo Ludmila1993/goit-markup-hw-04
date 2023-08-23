@@ -34,8 +34,9 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
+    gap: 40px;
   }
-  
+
   .list-menu{
     display: inline-flex;
     align-items: flex-start;
