@@ -34,7 +34,15 @@ body {
   }
   
   .logo-studio {
-    color: #2e2f42;
+  color: var(--navyblue, #2E2F42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+ font-weight: 700;
+ line-height: 21px; /* 116.667% */
+ letter-spacing: 0.54px;
+ text-transform: uppercase;
+ width: 71px;
   }
   
   .logo-studio-footer {
