@@ -8,7 +8,10 @@ body {
     text-decoration: none;
   }
   
-
+  /* Global Reset */
+.listNotMarker{
+  list-style-type: none;
+}
 
 
   .logo {
