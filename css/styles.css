@@ -4,14 +4,31 @@ body {
     background-color: #fff;
   }
   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+
+  h1, h2, h3, h4, h5, h6,
+  p, ul {
+    margin: 0;
+    padding: 0;
+  }
+
   a {
     text-decoration: none;
   }
   
-  .list{
+  button{
+    cursor: pointer;
+  }
+  .list {
     list-style-type: none;
   }
-  
+
   .logo {
     color: #4d5ae5;
     text-transform: uppercase;
@@ -29,6 +46,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    display: inline-block;
    }
   
   .nav-list:hover,
