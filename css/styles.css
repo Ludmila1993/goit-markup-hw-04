@@ -8,20 +8,15 @@ body {
     text-decoration: none;
   }
   
-
-.list-not-marker{
-  list-style-type: none ;
-}
   .logo {
-    color: var(--iris, #4D5AE5);
-    font-family: Raleway;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    width: 44px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
   }
   .nav-list {
     color: #2e2f42;
@@ -30,8 +25,9 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    list-style-type: none;
+    list-style-type: none;
   }
-  
   
   .nav-list:hover,
   .nav-list:focus {
@@ -39,15 +35,7 @@ body {
   }
   
   .logo-studio {
-  color: var(--navyblue, #2E2F42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
- font-weight: 700;
- line-height: 21px; /* 116.667% */
- letter-spacing: 0.54px;
- text-transform: uppercase;
- width: 71px;
+    color: #2e2f42;
   }
   
   .logo-studio-footer {
@@ -71,16 +59,13 @@ body {
   
   title,
   .hero-text {
-    color: var(--white, #FFF);
     text-align: center;
-    /* Header 1 */
-    font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
+    line-height: 1.07;
     letter-spacing: 1.12px;
-    width: 496px;
+    color: white;
   }
   
   .features-list-title {
@@ -106,9 +91,6 @@ body {
   
   .hero {
     background-color: #2e2f42;
-    width: 1440px;
-height: 600px;
-flex-shrink: 0;
   }
   
   .hero-button {
