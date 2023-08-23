@@ -29,7 +29,12 @@ body {
     list-style-type: none;
   }
 
-
+  img {
+    display: block;
+    width: 100%; /* Наприклад, розтягуємо картинку на всю ширину батьківського елемента */
+    margin: 10px auto; /* Задаємо зовнішні відступи та вирівнюємо по центру */
+  }
+  
   .container {
     display: flex;
     justify-content: flex-end;
