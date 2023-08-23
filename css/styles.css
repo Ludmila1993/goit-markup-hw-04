@@ -29,7 +29,10 @@ body {
      margin: 0 auto;
   }
 
-  .container-nav,
+  .container-nav{
+    align-items: center;
+    display: flex;
+  }
   .container-top{
     display: flex;
 }
