@@ -30,8 +30,8 @@ body {
   }
 
   .container-nav{
+   display: flex;
     align-items: center;
-    display: flex;
   }
   .container-top{
     display: flex;
