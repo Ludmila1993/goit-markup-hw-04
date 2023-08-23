@@ -30,9 +30,12 @@ body {
   }
 
   .list-menu{
- display: flex;
- justify-content: space-between;
-  align-items: center;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  header {
+    border-bottom: 2px solid #000; /* Example border for the header */
   }
 
   .logo {
