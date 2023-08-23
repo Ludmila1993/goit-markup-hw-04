@@ -22,6 +22,10 @@ body {
     text-decoration: none;
   }
   
+  .contakt{
+    display: flex;
+    gap: 40px;
+  }
   .container {
     width: 1158px; 
     padding-left: 15px; 
@@ -70,9 +74,10 @@ body {
   .list-menu{
     display: inline-flex;
     align-items: flex-start;
-   
     gap: 40px;
   }
+
+
   header {
     border-bottom: 2px solid #000; /* Example border for the header */
   }
