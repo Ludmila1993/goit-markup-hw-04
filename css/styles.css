@@ -29,12 +29,17 @@ body {
     list-style-type: none;
   }
 
+  .hader-menu{
+    border-bottom: 1px solid #e7e9fc;
+  }
+
+
   img {
     display: block;
     width: 100%; /* Наприклад, розтягуємо картинку на всю ширину батьківського елемента */
     margin: 10px auto; /* Задаємо зовнішні відступи та вирівнюємо по центру */
   }
-  
+
   .container {
     display: flex;
     justify-content: flex-end;
