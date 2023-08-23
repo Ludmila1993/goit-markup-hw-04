@@ -29,6 +29,10 @@ body {
     list-style-type: none;
   }
 
+  .list-menu{
+ display: flex;
+  }
+
   .logo {
     color: #4d5ae5;
     text-transform: uppercase;
