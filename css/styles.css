@@ -74,13 +74,16 @@ body {
   
   title,
   .hero-text {
+    color: var(--white, #FFF);
     text-align: center;
+    /* Header 1 */
+    font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
-    color: white;
+    width: 496px;
   }
   
   .features-list-title {
