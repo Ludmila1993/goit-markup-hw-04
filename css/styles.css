@@ -43,6 +43,8 @@ body {
   }
   .list {
     list-style-type: none;
+    padding-top: 24px; 
+    padding-bottom: 24px;
   }
 
   .hader-menu{
