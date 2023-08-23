@@ -9,7 +9,9 @@ body {
   }
   
 
-
+.list-not-marker{
+  list-style-type: none ;
+}
   .logo {
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
@@ -30,11 +32,7 @@ body {
     letter-spacing: 0.32px;
   }
   
-    /* Global Reset */
-.list-not-marker{
-  list-style-type: none;
-}
-
+  
   .nav-list:hover,
   .nav-list:focus {
     color: #404bbf;
