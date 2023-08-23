@@ -32,7 +32,9 @@ body {
   .hader-menu{
     border-bottom: 1px solid #e7e9fc;
   }
-
+  .div-menu{
+    display: flex;/*для розміщення навігації та контактів в одну лінію
+  }
 
   img {
     display: block;
