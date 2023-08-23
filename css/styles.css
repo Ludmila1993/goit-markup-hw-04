@@ -9,14 +9,15 @@ body {
   }
   
   .logo {
-    color: #4d5ae5;
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 44px;
   }
   .nav-list {
     color: #2e2f42;
