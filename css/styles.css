@@ -53,6 +53,7 @@ ol {
 
   .contakts-top{
     display: flex; 
+    gap: 40px;
     
   }
   .container {
