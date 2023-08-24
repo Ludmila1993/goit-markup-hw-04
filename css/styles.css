@@ -1,30 +1,51 @@
+
+:root {
+  --main-white: #fff;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --accent-color: #2e2f42;
+  --accent-font: 'Raleway', sans-serif;
+}
+
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #fff;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  color: #434455;
+  background-color: var(--main-white);
+  font-family: 'Roboto', sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-  h1, h2, h3, h4, h5, h6,
-  p, ul {
-    margin: 0;
-    padding: 0;
-  }
 
   a {
     text-decoration: none;
   }
   
-  .contakt{
-    display: flex;
+  .address {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
     gap: 40px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+  }
+  .contakts-top{
+    display: flex; 
   }
   .container {
     width: 1158px; 
