@@ -50,9 +50,11 @@ ol {
     letter-spacing: 0.02em;
     font-style: normal;
   }
-  
+
   .contakts-top{
-    display: flex; 
+   
+    padding: 24px 0;
+     display: block;
   }
   .container {
     width: 1158px; 
@@ -73,10 +75,9 @@ ol {
   button{
     cursor: pointer;
   }
+
   .list {
     list-style-type: none;
-    padding-top: 24px; 
-    padding-bottom: 24px;
   }
 
   .hader-menu{
