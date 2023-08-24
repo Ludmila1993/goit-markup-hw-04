@@ -122,6 +122,28 @@ p {
     color: #404bbf;
   }
   
+  .navigation-list {
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .navigation-list .list-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+  }
+  
+  .navigation-list .list-link:hover,
+  .navigation-list .list-link:focus {
+    color: var(--pressed-state-color);
+  }
   .logo-studio {
     color: #2e2f42;
   }
