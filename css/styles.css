@@ -9,6 +9,11 @@
   --accent-font: 'Raleway', sans-serif;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 body {
   color: #434455;
   background-color: var(--main-white);
@@ -44,11 +49,23 @@ ol {
     letter-spacing: 0.02em;
     font-style: normal;
   }
-
+.benefits-title{
+  margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
   .contakts-top{
     display: flex; 
     gap: 40px;
     
+  }
+  .benefits-list{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto; 
   }
   .container {
     width: 1158px; 
@@ -196,10 +213,15 @@ ol {
   }
   
   .features-list-text {
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
   
+  .team-list{
+    display: flex;
+    gap: 24px;
+  }
   .list-text {
     font-size: 16px;
     line-height: 1.5;
@@ -269,10 +291,7 @@ ol {
     color: #434455;
   }
   
-  .third-list {
-    background-color: white;
-  }
-  
+ 
   .features {
     visibility: hidden;
   }
