@@ -33,7 +33,6 @@ p {
   
   .address {
     display: inline-flex;
-    justify-content: flex-end;
     align-items: center;
     gap: 40px;
   
@@ -87,8 +86,6 @@ p {
 
   .container {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row-reverse;
     gap: 40px;
   }
 
