@@ -96,10 +96,6 @@ p {
   }
 
 
-  header {
-    border-bottom: 2px solid #000; /* Example border for the header */
-  }
-
   .logo {
     color: #4d5ae5;
     text-transform: uppercase;
