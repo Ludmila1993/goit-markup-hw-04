@@ -15,13 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -180,13 +174,16 @@ ol {
   
   title,
   .hero-text {
-    text-align: center;
-    font-size: 56px;
-    font-style: normal;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 48px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
     line-height: 1.07;
-    letter-spacing: 1.12px;
-    color: white;
+    color: var(--main-white);
+    text-align: center;
   }
   
   .features-list-title {
@@ -211,19 +208,26 @@ ol {
   }
   
   .hero {
-    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: var(--accent-color)
   }
   
   .hero-button {
-    font-family: "Roboto", sans-serif;
-    background-color: #4d5ae5;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    color: white;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
     cursor: pointer;
+    background-color: var(--primary-brand-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-white);
   }
   
   .hero-button:hover,
