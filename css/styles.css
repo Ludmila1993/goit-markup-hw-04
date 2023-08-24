@@ -57,6 +57,10 @@ ol {
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
+
+.team-member-content{
+  padding: 32px 0;
+}
   .contakts-top{
     display: flex; 
     gap: 40px;
@@ -68,11 +72,13 @@ ol {
     margin: 0 auto; 
   }
   .container {
-    width: 1158px; 
-    padding-left: 15px; 
-     padding-right: 15px;
-     margin: 0 auto;
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
   }
+  
 
   .container-nav{
    display: flex;
