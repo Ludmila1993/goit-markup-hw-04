@@ -128,11 +128,6 @@ ol {
     gap: 40px;
   }
 
-  .logo-footer{
-    display: inline-block;  
-  }
-
-
   .logo {
     color: #4d5ae5;
     text-transform: uppercase;
@@ -141,6 +136,7 @@ ol {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;  
   }
   .nav-list {
     color: #2e2f42;
@@ -196,8 +192,6 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--cloud);
-    margin-bottom: 16px; 
-   
   }
   
   .address {
@@ -392,5 +386,6 @@ ol {
     letter-spacing: 0.02em;
     color: var(--cloud);
     max-width: 264px;
+    margin-bottom: 16px; 
   }
   
