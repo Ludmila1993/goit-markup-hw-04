@@ -133,13 +133,11 @@ ol {
   .logo {
     color: #4d5ae5;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
+    font-family: var(--accent-font);
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-right: 76px;
   }
   .nav-list {
     color: #2e2f42;
@@ -185,7 +183,16 @@ ol {
   }
   
   .logo-studio-footer {
-    color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-family: var(--accent-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--cloud);
+   
   }
   
   .address {
@@ -358,22 +365,27 @@ ol {
     color: #434455;
   }
   
-  .example-title {
-    color: #2e2f42;
-    font-size: 20px;
-    font-style: normal;
+  .portfolio-title{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
     line-height: 1.2;
-    letter-spacing: 0.4px;
-  }
+    margin-bottom: 8px;
+} 
+
   
   .footer-field {
-    background-color: #2e2f42;
+    background-color: var(--accent-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   
   .footer-text {
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    color: #f4f4fd;
     letter-spacing: 0.02em;
+    color: var(--cloud);
+    max-width: 264px;
   }
   
