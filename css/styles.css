@@ -128,6 +128,9 @@ ol {
     gap: 40px;
   }
 
+  .logo-footer{
+    display: inline-block;  
+  }
 
 
   .logo {
@@ -193,6 +196,7 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--cloud);
+    margin-bottom: 16px; 
    
   }
   
