@@ -77,7 +77,7 @@ ol {
     gap: 40px;
     
   }
-  .benefits-list{
+  .features-list{
     display: flex;
     gap: 24px;
     margin: 0 auto; 
@@ -121,16 +121,13 @@ ol {
     margin: 10px auto; 
   }
 
-  .container {
-    display: flex;
-    gap: 40px;
-  }
 
   .list-menu{
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
   }
+
 
 
   .logo {
@@ -206,6 +203,7 @@ ol {
     color: #404bbf;
   }
   
+
   title,
   .hero-text {
     margin: 0 auto;
@@ -221,12 +219,12 @@ ol {
   }
   
   .features-list-title {
-    font-size: 20px;
-    font-style: normal;
+    margin-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
     line-height: 1.2;
-    letter-spacing: 0.4px;
-    color: #2e2f42;
   }
   
   .features-list-text {
@@ -235,6 +233,11 @@ ol {
     letter-spacing: 0.02em;
   }
   
+  .features-list-item{
+    display: inline-flex;
+    flex-direction: column;
+    width: 264px;
+  }
   .team-list{
     display: flex;
     gap: 24px;
@@ -326,7 +329,28 @@ ol {
     text-align: center;
     text-transform: capitalize;
   }
-  
+  .portfolio-list-item{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: var(--main-white);
+    width: calc((100% - 48px) / 3);
+
+  }
+
+
+  .portfolio-content{
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
+ 
+  .portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
   .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
