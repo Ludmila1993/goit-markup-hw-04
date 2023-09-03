@@ -168,7 +168,7 @@ ol {
    }
   
 
-   .listP :after {
+   .list-link-active:after {
     display: block;
     content: '';
     width: 100%;
