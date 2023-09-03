@@ -168,7 +168,7 @@ ol {
    }
   
 
-   .list ::after {
+   .listP :after {
     display: block;
     content: '';
     width: 100%;
