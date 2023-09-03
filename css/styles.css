@@ -168,6 +168,8 @@ ol {
    }
   
 
+   .nav-list :hover,
+   .nav-list:focus ,
    .list-link-active:after {
     display: block;
     content: '';
@@ -178,7 +180,7 @@ ol {
 
   }
 
-  .list::after {
+  .list :after {
     display: block;
     content: '';
     height: 4px;
@@ -298,11 +300,6 @@ ol {
     flex-direction: column;
     width: 264px;
   }
-
-  .nav-list :hover,
-  .nav-list:focus {
-  color: var(--pressed-state-color);
-}
 
 
 
