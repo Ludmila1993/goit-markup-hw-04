@@ -109,8 +109,8 @@ ol {
   }
 
   .header-menu{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--main-white, #FFF);
    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   }
   .div-menu{
