@@ -238,7 +238,7 @@ ol {
   }
   .team-member-socials-item-link:hover,
   .team-member-socials-item-link:focus {
-    background-color: var(--primary-brand-color);
+    background-color:  #404bbf; ;
   }
   
   .team-member-socials-item-svg {
