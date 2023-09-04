@@ -238,9 +238,13 @@ ol {
   }
   .team-member-socials-item-link:hover,
   .team-member-socials-item-link:focus {
-    background-color:   #31d0aa; ;
+    background-color:  #404bbf; ;
   }
   
+  .team-member-socials-item-linkf:hover,
+  .team-member-socials-item-linkf.footer-field {
+    background-color: #31d0aa; ;
+  }
   .team-member-socials-item-svg {
     fill: var(--cloud);
   }
