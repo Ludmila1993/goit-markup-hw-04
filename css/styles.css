@@ -208,7 +208,7 @@ ol {
   .team-member-socials {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     margin-top: 8px;
   }
   
