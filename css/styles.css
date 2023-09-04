@@ -161,9 +161,9 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--accent-color);
-    position: relative;
   
+    position: relative;
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
   
