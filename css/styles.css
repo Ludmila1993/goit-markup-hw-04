@@ -213,11 +213,12 @@ ol {
     gap: 16px;
     margin-top: 8px;
   }
-  
 
   .socials-item {
     width: 40px;
     height: 40px;
+    gap: 24px
+
   }
   
   .team-member-socials-item-link,
