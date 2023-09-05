@@ -210,14 +210,13 @@ ol {
   .team-member-socials {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     margin-top: 8px;
   }
 
   .socials-item {
     width: 40px;
     height: 40px;
-    gap: 24px
 
   }
   
