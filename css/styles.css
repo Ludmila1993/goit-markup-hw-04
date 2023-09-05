@@ -242,6 +242,7 @@ ol {
   }
   
   .team-member-socials-item-linkf:hover,
+  .team-member-socials-item-linkf:focus,
   .team-member-socials-item-linkf.footer-field {
     background-color: #31d0aa; ;
   }
