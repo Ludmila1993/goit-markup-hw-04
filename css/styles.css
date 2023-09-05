@@ -217,7 +217,9 @@ ol {
     height: 40px;
   }
   
-  .team-member-socials-item-link {
+  .team-member-socials-item-link,
+  .team-member-socials-item-linkf
+  {
     display: flex;
     justify-content: center;
     align-items: center;
